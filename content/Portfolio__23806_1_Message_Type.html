@@ -1,0 +1,174 @@
+<!DOCTYPE HTML ><!-- previewPortfolio/preview_portfolio_page.jsp -->
+<html dir="ltr">
+<head>
+<meta content='width=device-width, initial-scale=1.0' name='viewport' />
+<title>Message Type</title> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="author" content="Blackboard">
+<meta name="copyright" content="&copy; 1997-2020 Blackboard Inc. All Rights Reserved. U.S. Patent No. 7,493,396 and 7,558,853">
+<meta name="keywords" content="Blackboard">
+<link type="text/css" rel="stylesheet" href="style_css/stylesheet.css" id="portfolioStylesheet"/>
+<script type="text/javascript" src="../comments.js"></script>
+</head>
+<body class='bbDefault' onLoad='PortfolioSnapshotComments.initPage();'>
+ <!-- preview_portfolio_header.jsp -->
+<div id="portContainer" class="clearfix">
+ <!--header-->
+ <div id="portHeader">
+   <h1> 
+ <p>Liran Masas, Andy Kim, Joshua Chong - ICMP Protocol - DCF255</p> 
+</h1>
+  </div>
+ <!--navigation-->
+
+ <div id="portBody" class="clearfix">
+  <div id="portNav" class="portNav portNavMenuList">
+    <div id="portNavMobileButton" class="portNavMobileButton"></div>
+    <div id="navLabel">Navigation Panel</div>
+
+    <ul id="portNavList">
+     <li><a href="Portfolio__23804_1_Home.html">Home</a></li>
+     <li><a href="Portfolio__23805_1_Usage.html">Usage</a></li>
+     <li><a href="Portfolio__23806_1_Message_Type.html">Message Type</a></li>
+     <li><a href="Portfolio__23807_1_Message_Sequence.html">Message Sequence</a></li>
+     <li><a href="Portfolio__23815_1_Summary.html">Summary</a></li>
+     <li><a href="Portfolio__23819_1_References.html">References</a></li>
+     </ul>
+
+   </div>
+  <script type="text/javascript">
+ document.getElementById('portNavMobileButton').addEventListener('click', function () {
+    var nav = document.getElementById('portNav');
+    if (nav.classList.contains('portNavOpen')) {
+     nav.classList.remove('portNavOpen');
+     
+    } else {
+     nav.classList.add('portNavOpen');
+    }
+  });
+  </script>
+  <div id="portText">
+   
+  <h2>Message Type</h2>
+ 
+  <!-- preview_portfolio_section.jsp -->
+<div class="portSection">
+ <h3 class="section-title"></h3>
+ <div class="vtbegenerated"> 
+ <p><span style="font-size: 18.0pt;">ICMP Message Types are divided into two categories, <b>Error-reporting </b>and <b>Query</b>.</span></p> 
+</div></div>
+<!-- preview_portfolio_section.jsp -->
+<div class="portSection">
+ <h3 class="section-title">Error-reporting</h3>
+ <div class="vtbegenerated"> 
+ <p dir="ltr">Serves as an error reporter for the router or destination host when delivering one specific IP packet.<br>ICMP reports errors, but no correction has occurred, and the error messages are sent back to the source where the packet is sent.</p> 
+</div></div>
+<!-- preview_portfolio_section.jsp -->
+<div class="portSection">
+ <h3 class="section-title">Query</h3>
+ <div class="vtbegenerated"> 
+ <p>ICMP may be used to request and fetch information about a packet from the router or the host, which is for diagnostics or debugging purposes for the connection or the route itself.</p> 
+</div></div>
+<!-- preview_portfolio_section.jsp -->
+<div class="portSection">
+ <h3 class="section-title">The following table contains different examples of the Message type and the type's message</h3>
+ <div class="vtbegenerated"> 
+ <table cellpadding="0" cellspacing="0" border="1" width="700" style="border-collapse: collapse;width: 100.0%;height: 840.0px;"> 
+  <tbody> 
+   <tr> 
+    <td valign="top" style="width: 196.0px;"> <p><span style="font-size: 14.0pt;"><b>Type</b></span></p> </td> 
+    <td valign="top" style="width: 635.0px;"> <p><span style="font-size: 14.0pt;"><b>Message</b></span></p> </td> 
+    <td valign="top" style="width: 644.0px;"> <p><span style="font-size: 14.0pt;"><b>Category</b></span></p> </td> 
+   </tr> 
+   <tr> 
+    <td valign="top" style="width: 196.0px;"> <p><span style="font-size: 14.0pt;">0</span></p> </td> 
+    <td valign="top" style="width: 635.0px;"> <p><span style="font-size: 14.0pt;">Echo Reply</span></p> </td> 
+    <td valign="top" style="width: 644.0px;"> <p><span style="font-size: 14.0pt;">Query Messages</span></p> </td> 
+   </tr> 
+   <tr> 
+    <td valign="top" style="width: 196.0px;"> <p><span style="font-size: 14.0pt;">3</span></p> </td> 
+    <td valign="top" style="width: 635.0px;"> <p><span style="font-size: 14.0pt;">Destination Unreachable</span></p> </td> 
+    <td valign="top" style="width: 644.0px;"> <p><span style="font-size: 14.0pt;">Error-reporting Messages</span></p> </td> 
+   </tr> 
+   <tr> 
+    <td valign="top" style="width: 196.0px;"> <p><span style="font-size: 14.0pt;">4</span></p> </td> 
+    <td valign="top" style="width: 635.0px;"> <p><span style="font-size: 14.0pt;">Source Quench</span></p> </td> 
+    <td valign="top" style="width: 644.0px;"> <p><span style="font-size: 14.0pt;">Error-reporting Messages</span></p> </td> 
+   </tr> 
+   <tr> 
+    <td valign="top" style="width: 196.0px;"> <p><span style="font-size: 14.0pt;">5</span></p> </td> 
+    <td valign="top" style="width: 635.0px;"> <p><span style="font-size: 14.0pt;">Redirection</span></p> </td> 
+    <td valign="top" style="width: 644.0px;"> <p><span style="font-size: 14.0pt;">Error-reporting Messages</span></p> </td> 
+   </tr> 
+   <tr> 
+    <td valign="top" style="width: 196.0px;"> <p><span style="font-size: 14.0pt;">8</span></p> </td> 
+    <td valign="top" style="width: 635.0px;"> <p><span style="font-size: 14.0pt;">Echo-Request</span></p> </td> 
+    <td valign="top" style="width: 644.0px;"> <p><span style="font-size: 14.0pt;">Query Messages</span></p> </td> 
+   </tr> 
+   <tr> 
+    <td valign="top" style="width: 196.0px;"> <p><span style="font-size: 14.0pt;">9</span></p> </td> 
+    <td valign="top" style="width: 635.0px;"> <p><span style="font-size: 14.0pt;">Router Advertisement</span></p> </td> 
+    <td valign="top" style="width: 644.0px;"> <p><span style="font-size: 14.0pt;">Query Messages</span></p> </td> 
+   </tr> 
+   <tr> 
+    <td valign="top" style="width: 196.0px;"> <p><span style="font-size: 14.0pt;">10</span></p> </td> 
+    <td valign="top" style="width: 635.0px;"> <p><span style="font-size: 14.0pt;">Router Solicitation</span></p> </td> 
+    <td valign="top" style="width: 644.0px;"> <p><span style="font-size: 14.0pt;">Query Messages</span></p> </td> 
+   </tr> 
+   <tr> 
+    <td valign="top" style="width: 196.0px;"> <p><span style="font-size: 14.0pt;">11</span></p> </td> 
+    <td valign="top" style="width: 635.0px;"> <p><span style="font-size: 14.0pt;">Time Exceeded</span></p> </td> 
+    <td valign="top" style="width: 644.0px;"> <p><span style="font-size: 14.0pt;">Error-reporting Messages</span></p> </td> 
+   </tr> 
+   <tr> 
+    <td valign="top" style="width: 196.0px;"> <p><span style="font-size: 14.0pt;">12</span></p> </td> 
+    <td valign="top" style="width: 635.0px;"> <p><span style="font-size: 14.0pt;">Parameter Problem</span></p> </td> 
+    <td valign="top" style="width: 644.0px;"> <p><span style="font-size: 14.0pt;">Error-reporting Messages</span></p> </td> 
+   </tr> 
+   <tr> 
+    <td valign="top" style="width: 196.0px;"> <p><span style="font-size: 14.0pt;">13</span></p> </td> 
+    <td valign="top" style="width: 635.0px;"> <p><span style="font-size: 14.0pt;">Timestamp Request</span></p> </td> 
+    <td valign="top" style="width: 644.0px;"> <p><span style="font-size: 14.0pt;">Query Messages</span></p> </td> 
+   </tr> 
+   <tr> 
+    <td valign="top" style="width: 196.0px;"> <p><span style="font-size: 14.0pt;">14</span></p> </td> 
+    <td valign="top" style="width: 635.0px;"> <p><span style="font-size: 14.0pt;">Timestamp Reply</span></p> </td> 
+    <td valign="top" style="width: 644.0px;"> <p><span style="font-size: 14.0pt;">Query Messages</span></p> </td> 
+   </tr> 
+   <tr> 
+    <td valign="top" style="width: 196.0px;"> <p><span style="font-size: 14.0pt;">15</span></p> </td> 
+    <td valign="top" style="width: 635.0px;"> <p><span style="font-size: 14.0pt;">Information Request</span></p> </td> 
+    <td valign="top" style="width: 644.0px;"> <p><span style="font-size: 14.0pt;">Query Messages</span></p> </td> 
+   </tr> 
+   <tr> 
+    <td valign="top" style="width: 196.0px;"> <p><span style="font-size: 14.0pt;">16</span></p> </td> 
+    <td valign="top" style="width: 635.0px;"> <p><span style="font-size: 14.0pt;">Information Reply</span></p> </td> 
+    <td valign="top" style="width: 644.0px;"> <p><span style="font-size: 14.0pt;">Query Messages</span></p> </td> 
+   </tr> 
+   <tr> 
+    <td valign="top" style="width: 196.0px;"> <p><span style="font-size: 14.0pt;">17</span></p> </td> 
+    <td valign="top" style="width: 635.0px;"> <p><span style="font-size: 14.0pt;">Address Mask Request</span></p> </td> 
+    <td valign="top" style="width: 644.0px;"> <p><span style="font-size: 14.0pt;">Query Messages</span></p> </td> 
+   </tr> 
+   <tr> 
+    <td valign="top" style="width: 196.0px;"> <p><span style="font-size: 14.0pt;">18</span></p> </td> 
+    <td valign="top" style="width: 635.0px;"> <p><span style="font-size: 14.0pt;">Address Mask Reply</span></p> </td> 
+    <td valign="top" style="width: 644.0px;"> <p><span style="font-size: 14.0pt;">Query Messages</span></p> </td> 
+   </tr> 
+  </tbody> 
+ </table> 
+</div></div>
+<!-- preview_portfolio_section.jsp -->
+<div class="portSection">
+ <h3 class="section-title">Example of Error-reporting messages: (Type 3) Destination Network Unreachable</h3>
+ <div class="vtbegenerated"> 
+ <p>The ICMP Type 3 error-reporting message "Destination Unreachable" is sent to the source host when it encounters an error reaching the destination host. In total, there are seven different codes (0, 1, 2, 3, 7, 9, 10) where each code type represents different types of delivery problems.</p> 
+</div></div>
+<!-- preview_portfolio_section.jsp -->
+<div class="portSection">
+ <h3 class="section-title">Example of Query messages: (Type 8, 0) Echo Request and Reply</h3>
+ <div class="vtbegenerated"> 
+ <p>The ICMP Echo Request Type 8 and Echo-Reply Type 0 is used for diagnostic purposes when trying to test the connectivity between two remote hosts. The messages will execute the following upon successful echo replies to the echo requests, which indicates a successful test between the hosts. It assumes that a communication path exists between the hosts and assumes that the end host function through the network layer.</p> 
+</div></div>
+</div>
+ </body>
+
